@@ -29,7 +29,7 @@ body {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  max-width: 900px;
+  max-width: 1300px;
 }
 
 .main-form .inner-form h1 {
@@ -37,7 +37,7 @@ body {
 }
 
 .main-form .inner-form .prop-res-wrapper {
-  min-width: 400px;
+  min-width: 500px;
 }
 
 .main-form .inner-form .prop-res-wrapper .status-bar {
@@ -46,11 +46,25 @@ body {
 
 #input-text {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 16px;
   border: none;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.2);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.2);
   padding: 20px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 19px;
+  max-height: 70vh;
+  max-width: 50vw;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+@media screen and (min-width: 1600px) {
+  #input-text {
+    max-width: 900px !important;
+  }
 }
 
 * {

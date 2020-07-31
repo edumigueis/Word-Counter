@@ -1,5 +1,16 @@
+/*
+
+Copyright (c) Eduardo Migueis 2020.
+
+ */
+
+
+ //textarea
 var countTarget = document.querySelector("#input-text");
+
+//target of the word count value. <span>
 var wordCount = document.querySelector("#word-count");
+//target of the character count value. <span>
 var characterCount = document.querySelector("#character-count");
 
 var count = function () {
@@ -14,10 +25,12 @@ var count = function () {
   characterCount.innerHTML = characterLength;
 };
 
+//sets the inicial sentence inside the textarea
 countTarget.textContent = "Almost before we knew it, we had left the ground.";
 
 count();
 
+//binds the input event of the text area to the function count()
 window.addEventListener(
   "input",
   function (event) {

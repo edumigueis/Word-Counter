@@ -1,53 +1,76 @@
-@font-face{
+@font-face {
     src: url("../fonts/Helvetica\ Neue\ Medium.otf");
     font-family: "Helvetica Neue Medium";
 }
-body{
+
+body {
     background-color: #fbfbfb;
     font-family: "Helvetica Neue Medium";
     color: #191919;
+    -webkit-font-smoothing: antialiased;
 }
-.main-form{
+
+.main-form {
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 60%;
-    .inner-form{
+
+    .inner-form {
         width: fit-content;
         max-width: 900px;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .prop-res-wrapper {
+            min-width: 400px;
+
+            .status-bar {
+                margin-top: 9px;
+            }
+        }
     }
 }
-#input-text{
+
+#input-text {
     width: 100%;
     border-radius: 15px;
     border: none;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.20);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.20);
     padding: 20px;
 }
-*{
+
+* {
     outline: none;
     box-sizing: border-box;
     border: none;
     padding: 0;
     margin: 0;
 }
-.wrapper{
+
+.wrapper {
     display: flex;
     flex-wrap: nowrap;
     height: 100vh;
-    .left-wrapper{
+
+    .left-wrapper {
         flex: 40%;
         background: #ff6e99;
         overflow: hidden;
-        .watermark{
+
+        .watermark {
             font-size: 15rem;
             position: relative;
             color: #bb4e6f;
-            &:nth-child(1){
+
+            &:nth-child(1) {
                 margin-left: -30px;
                 letter-spacing: 0.4rem;
             }
-            &:nth-child(2){
+
+            &:nth-child(2) {
                 margin-left: -300px;
             }
         }

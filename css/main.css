@@ -7,6 +7,7 @@ body {
   background-color: #fbfbfb;
   font-family: "Helvetica Neue Medium";
   color: #191919;
+  -webkit-font-smoothing: antialiased;
 }
 
 .main-form {
@@ -29,6 +30,18 @@ body {
   width: -moz-fit-content;
   width: fit-content;
   max-width: 900px;
+}
+
+.main-form .inner-form h1 {
+  margin-bottom: 20px;
+}
+
+.main-form .inner-form .prop-res-wrapper {
+  min-width: 400px;
+}
+
+.main-form .inner-form .prop-res-wrapper .status-bar {
+  margin-top: 9px;
 }
 
 #input-text {

@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
     <main class="wrapper">
-        <div class="left-wrapper">
-            <h2 class="watermark">Word</h2>
-            <h2 class="watermark">Meaning</h2>
+      <div class="left-wrapper">
+        <h2 class="watermark">Word</h2>
+        <h2 class="watermark">Meaning</h2>
+        <h2 class="watermark">Counter</h2>
+      </div>
+      <div class="main-form">
+        <div class="inner-form">
+          <h1>Enter text here:</h1>
+          <div class="prop-res-wrapper">
+            <textarea name="" id="input-text" cols="30" rows="10"></textarea>
+            <p class="status-bar">
+              Words: <span class="word-count">0</span> | Characters:
+              <span class="character-count">0</span>
+            </p>
+          </div>
         </div>
-        <div class="main-form">
-            <div class="inner-form">
-                <h1>Enter text here:</h1>
-                <div>
-                    <textarea name="" id="input-text" cols="30" rows="10"></textarea>
-                    <p class="status-bar"><span class="word-count"></span>|<span class="character-count"></span></p>
-                </div>
-            </div>
-        </div>
+      </div>
     </main>
-
-</body>
+  </body>
 </html>

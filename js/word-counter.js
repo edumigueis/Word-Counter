@@ -14,7 +14,7 @@ var count = function () {
   characterCount.innerHTML = characterLength;
 };
 
-countTarget.textContent = "Almost before we knew it, we had left the ground."
+countTarget.textContent = "Almost before we knew it, we had left the ground.";
 
 count();
 

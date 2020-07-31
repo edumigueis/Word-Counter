@@ -22,28 +22,33 @@ body {
 
         h1 {
             margin-bottom: 20px;
-            @media screen and (max-width: 900px){
+
+            @media screen and (max-width: 900px) {
                 margin-left: 20px;
             }
         }
 
         .prop-res-wrapper {
             min-width: 500px;
-            @media screen and (max-width: 900px){
+
+            @media screen and (max-width: 900px) {
                 display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
             }
-            @media screen and (max-width: 400px){
+
+            @media screen and (max-width: 400px) {
                 max-width: 99vw;
                 min-width: 0;
             }
+
             .status-bar {
                 margin-top: 9px;
                 width: 100%;
                 flex: 100%;
-                @media screen and (max-width: 900px){
+
+                @media screen and (max-width: 900px) {
                     margin-left: 20px;
                 }
             }
@@ -65,10 +70,12 @@ body {
     max-width: 50vw;
     min-width: 300px;
     min-height: 300px;
-    @media screen and (min-width: 1600px){
+
+    @media screen and (min-width: 1600px) {
         max-width: 900px !important;
     }
-    @media screen and (max-width: 900px){
+
+    @media screen and (max-width: 900px) {
         flex: 100%;
         width: 100%;
         margin: 0 20px;
@@ -93,9 +100,11 @@ body {
         flex: 40%;
         background: #fc789f;
         overflow: hidden;
-        @media screen and (max-width: 700px){
+
+        @media screen and (max-width: 700px) {
             display: none;
         }
+
         .watermark {
             font-size: 15rem;
             position: relative;
@@ -112,7 +121,8 @@ body {
         }
     }
 }
-.github-link{
+
+.github-link {
     position: fixed;
     z-index: 3;
     top: 14px;
@@ -120,8 +130,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 15px;
-    a{
+
+    a {
         color: #422adb;
-    text-decoration: none;
+        text-decoration: none;
     }
 }

@@ -4,6 +4,7 @@ tl.from(".left-wrapper", {
   ease: Power1.easeOut,
   x: "-45vw",
 }).to(".left-wrapper", { duration: 1.3, x: 0 });
+
 var tl2 = new TimelineLite();
 tl2
   .from(".main-form", {

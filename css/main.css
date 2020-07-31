@@ -36,12 +36,44 @@ body {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 900px) {
+  .main-form .inner-form h1 {
+    margin-left: 20px;
+  }
+}
+
 .main-form .inner-form .prop-res-wrapper {
   min-width: 500px;
 }
 
+@media screen and (max-width: 900px) {
+  .main-form .inner-form .prop-res-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .main-form .inner-form .prop-res-wrapper .status-bar {
   margin-top: 9px;
+  width: 100%;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .main-form .inner-form .prop-res-wrapper .status-bar {
+    margin-left: 20px;
+  }
 }
 
 #input-text {
@@ -64,6 +96,17 @@ body {
 @media screen and (min-width: 1600px) {
   #input-text {
     max-width: 900px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #input-text {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    width: 100%;
+    margin: 0 20px;
+    max-width: 99vw;
   }
 }
 
@@ -91,6 +134,12 @@ body {
           flex: 40%;
   background: #fc789f;
   overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper .left-wrapper {
+    display: none;
+  }
 }
 
 .wrapper .left-wrapper .watermark {

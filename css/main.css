@@ -1,0 +1,83 @@
+@font-face {
+  src: url("../fonts/Helvetica Neue Medium.otf");
+  font-family: "Helvetica Neue Medium";
+}
+
+body {
+  background-color: #fbfbfb;
+  font-family: "Helvetica Neue Medium";
+  color: #191919;
+}
+
+.main-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
+}
+
+.main-form .inner-form {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 900px;
+}
+
+#input-text {
+  width: 100%;
+  border-radius: 15px;
+  border: none;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+* {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 100vh;
+}
+
+.wrapper .left-wrapper {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  background: #ff6e99;
+  overflow: hidden;
+}
+
+.wrapper .left-wrapper .watermark {
+  font-size: 15rem;
+  position: relative;
+  color: #bb4e6f;
+}
+
+.wrapper .left-wrapper .watermark:nth-child(1) {
+  margin-left: -30px;
+  letter-spacing: 0.4rem;
+}
+
+.wrapper .left-wrapper .watermark:nth-child(2) {
+  margin-left: -300px;
+}
+/*# sourceMappingURL=main.css.map */

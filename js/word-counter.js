@@ -4,8 +4,7 @@ Copyright (c) Eduardo Migueis 2020.
 
  */
 
-
- //textarea
+//textarea
 var countTarget = document.querySelector("#input-text");
 
 //target of the word count value. <span>
@@ -40,58 +39,3 @@ window.addEventListener(
   },
   false
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -11,4 +11,4 @@ Eduardo Migueis
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+[https://github.com/edumigueis/Word-Counter](https://github.com/edumigueis)

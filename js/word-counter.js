@@ -13,7 +13,9 @@ var wordCount = document.querySelector("#word-count");
 var characterCount = document.querySelector("#character-count");
 
 var count = function () {
+  //value inside the textarea
   var characters = countTarget.value;
+  //number of characters
   var characterLength = characters.length;
 
   var words = characters.split(/[\n\r\s]+/g).filter(function (word) {

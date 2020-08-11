@@ -13,15 +13,13 @@ body {
 
 .main-form {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-flex: 60%;
-      -ms-flex: 60%;
-          flex: 60%;
+  flex: 60%;
 }
 
 .main-form .inner-form {
@@ -48,14 +46,12 @@ body {
 @media screen and (max-width: 900px) {
   .main-form .inner-form .prop-res-wrapper {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
     -webkit-box-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
@@ -70,8 +66,7 @@ body {
   margin-top: 9px;
   width: 100%;
   -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
+  flex: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -85,7 +80,7 @@ body {
   border-radius: 16px;
   border: none;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.2);
   padding: 20px;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -106,7 +101,7 @@ body {
 @media screen and (max-width: 900px) {
   #input-text {
     -webkit-box-flex: 100%;
-            flex: 100%;
+    flex: 100%;
     width: 100%;
     margin: 0 20px;
     max-width: 99vw;
@@ -116,7 +111,7 @@ body {
 * {
   outline: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: none;
   padding: 0;
   margin: 0;
@@ -124,17 +119,14 @@ body {
 
 .wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   height: 100vh;
 }
 
 .wrapper .left-wrapper {
   -webkit-box-flex: 40%;
-      -ms-flex: 40%;
-          flex: 40%;
+  flex: 40%;
   background: #fc789f;
   overflow: hidden;
 }
@@ -174,4 +166,5 @@ body {
   color: #422adb;
   text-decoration: none;
 }
+
 /*# sourceMappingURL=main.css.map */
